@@ -227,7 +227,7 @@ Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bis
 
 Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).
 
-I love you so much! 💕`;
+Dari CIMAN 💕`;
     
     // Clear content and start fresh
     messageContent.innerHTML = '';
@@ -262,7 +262,12 @@ function skipTypewriter() {
         clearInterval(typewriterInterval);
         const messageContent = document.querySelector('.message-content');
         if (messageContent) {
-            const fullMessage = `Hi Cel,<br><br>Happy Birthday!<br><br>Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, apalagi yang kocak-kocak dan gak biasa, karena kamu tuh unik banget! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.<br><br>Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).<br><br>I love you so much! 💕`;
+            const fullMessage = `Hi,<br><br>Selamat ulang tahun ya, Cut Putri Dina Akmalia 🎂🤍<br><br>Semoga di umur yang baru ini kamu selalu diberi kesehatan, kebahagiaan, dan dimudahkan dalam setiap urusan. Semoga semua doa serta harapan yang kamu simpan perlahan bisa terwujud satu per satu.
+
+                    Terima kasih karena sudah hadir dan menjadi bagian yang berarti. Semoga tahun ini membawa banyak hal baik, lebih banyak senyum, dan lebih banyak cerita indah untukmu.
+
+                    Tetap jadi diri kamu yang aku kenal—pribadi yang kuat, baik, dan spesial. Sekali lagi, selamat ulang tahun. Semoga harimu menyenangkan dan penuh kebahagiaan 🤍
+                    .<br><br>Dari CIMAN 💕`;
             messageContent.innerHTML = fullMessage;
             isTyping = false;
             messageContent.scrollTop = messageContent.scrollHeight;
@@ -318,37 +323,29 @@ function startPhotoShow() {
     // Foto lokal dari folder images
     const photos = [
         {
-            text: '💕',
-            image: './gambar1.jpg'
+            text: 'Happy Birthday! 🎉',
+            image: 'silman3.jpeg'
         },
         {
             text: 'Birthday Moment 🎂',
-            image: './gambar2.jpg'
-        },
-        {
-            text: 'Adventure Time 🌟',
-            image: './gambar3.jpg'
-        },
-        {
-            text: 'Cozy Together ❤️',
-            image: './gambar4.jpg'
-        },
-        {
-            text: 'Sweet Memories 🥰',
-            image: './gambar5.jpg'
-        },
-        {
-            text: 'Laugh Together 😂',
-            image: './gambar6.jpg'
+            image: 'silman4.jpeg'
         },
         {
             text: 'Perfect Day ☀️',
-            image: './gambar7.jpg'
+            image: 'silman.jpeg'
         },
         {
-            text: 'Love Forever 💖',
-            image: './gambar8.jpg'
-        }
+            text: 'Sweet Memories 🥰',
+            image: 'silman2.jpeg'
+        },
+        {
+            text: 'Happy Birthday! 🎉',
+            image: 'silman5.jpeg'
+        },
+        {
+            text: 'Happy Birthday! 🎉',
+            image: 'silman6.jpeg'
+        },
     ];
     
     console.log('Total photos:', photos.length);
@@ -606,19 +603,19 @@ function loadSpotifyPlaylist(playlistNumber) {
     const playlists = {
         1: {
             // Ganti dengan playlist pertama kamu
-            embedUrl: 'https://open.spotify.com/embed/playlist/5c7GuGD0T6elly2Kyz794s?si=409dc1a0f3464a36&pt=837ff22e28739c2a3cc334f8e64fda6b',
+            embedUrl: 'https://open.spotify.com/playlist/3HvgaZeBWbr7UjFeicPFRI?si=EAbeSo2HTVSNbIjVst51TA',
             name: 'Birthday Special Mix',
-            description: 'Lagu-lagu spesial untuk hari istimewa kamu ✨'
+            description: 'Koleksi lagu terbaik untuk kita ❤️'
         },
         2: {
             // Ganti dengan playlist kedua kamu
-            embedUrl: 'https://open.spotify.com/embed/playlist/2QbErmLusPcytuEXdQOLFt?si=bb5e8c7fa3f44cf3&pt=a099004765c3958cfab65b2ef09ac51b',
+            embedUrl: 'https://open.spotify.com/playlist/37i9dQZF1DWYtQSOiZF6hj?si=xTZ2wanHT4aev3Oj5769Eg',
             name: 'Love Songs Collection',
-            description: 'Koleksi lagu cinta terbaik untuk kita ❤️'
+            description: 'Lagu-lagu spesial untuk hari istimewa kamu ✨'
         },
         3: {
             // Ganti dengan playlist ketiga kamu
-            embedUrl: 'https://open.spotify.com/embed/playlist/4dlQ4JHE6abxv38aae2HL1?si=95730613199e4dad',
+            embedUrl: 'https://open.spotify.com/playlist/0xHlEVgrdbRV0EpEfeSwBX?si=o2evYsmdTgyo_jTzETrPMw',
             name: 'Happy Memories',
             description: 'Lagu-lagu yang mengingatkan kenangan indah 🌟'
         }
